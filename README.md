@@ -6,7 +6,7 @@
 
 <br><br>
 
-# 7- [Data Mining]() / XXXXXXXXXXXXXXX
+# 7- [Data Mining]() / Regression Techniques with Data Integration
 
 
 <!-- ======================================= Start DEFAULT HEADER ===========================================  -->
