@@ -92,6 +92,27 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 
 
 
+## [Overview]()
+
+This repository covers fundamental concepts and practical techniques in Data Mining focused on clustering (grouping by similarity), various types of regression for modeling data trends, and the crucial steps for data integration and preprocessing. Each section includes theoretical explanations, use case examples, mathematical formulations using LaTeX, and Python code snippets to assist practical understanding.
+
+<br><br>
+
+## [Table of Contents]()
+
+- [Clustering](#clustering)
+- [Regression Types](#regression-types)
+- [Data Integration](#data-integration)
+    - [Data Redundancy and Duplicates](#data-redundancy-and-duplicates)
+    - [Data Conflicts](#data-conflicts)
+    - [Data Compression](#data-compression)
+    - [PCA - Principal Component Analysis](#pca)
+    - [Data Standardization](#data-standardization)
+    - [Data Normalization](#data-normalization)
+
+
+
+
 
 
 
