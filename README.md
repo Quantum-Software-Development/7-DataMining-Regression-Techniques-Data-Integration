@@ -214,16 +214,27 @@ df_clean = df.drop_duplicates()
 <br><br>
 
 
-
 ## Data Conflicts
 
 Data conflicts arise when different sources provide inconsistent values for the same entity, for example, distances in kilometers vs miles or weights in kilograms vs pounds. Resolving conflicts often requires standardization to consistent units and formats.
+
+<br><br>
 
 
 ## Data Compression
 
 Compression reduces data dimensionality or size to improve efficiency without losing essential information. Two main approaches:
 
+- **Attribute Compression:** Encoding or transforming attributes (e.g., PCA).
+
+- **Data Reduction:** Removing or summarizing instances or attributes.
+
+  
+<br><br>
+
+## PCA - Principal Component Analysis
+
+PCA transforms correlated variables into a set of linearly uncorrelated components that capture the most variance in the data.
 
 
 
