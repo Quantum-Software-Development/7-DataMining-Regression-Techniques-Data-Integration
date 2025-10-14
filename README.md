@@ -190,13 +190,28 @@ In real-world applications, data often comes from various sources and needs to b
 
 <br>
 
-### *Data Redundancy and Duplicates*
+### [*Data Redundancy and Duplicates*]()
 
 Redundancy occurs when the same data appears multiple times, which can bias analysis or cause inconsistencies. A common case is duplicate rows in datasets.
 
 <br><br>
 
+### [Python Code to Detect and Remove Duplicates]()
 
+<br>
+
+```python
+# Code to detect duplicates and remove them
+import pandas as pd
+
+df = pd.read_csv('/content/cancer.csv')
+print(df.duplicated().value_counts())
+
+# Remove duplicates
+df_clean = df.drop_duplicates()
+```
+
+<br><br>
 
 
 
