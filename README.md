@@ -167,22 +167,22 @@ Before selecting a regression model, it is essential to plot a scatter plot of t
 
 <br><br>
 
-## Common Regression Types
+## [Common Regression Types]()
 
 <br><br>
 
-| Regression Type | Description | Equation / Model |
+| [Regression Type]() | [Description]() | [Equation / Model]() |
 | :-- | :-- | :-- |
-| Linear Regression | Models data with a straight line, assumes linear relationship. | \$y = \beta_0 + \beta_1 x \$ |
-| Polynomial Regression | Fits a polynomial curve, useful for nonlinear trends. | \$y = \beta_0 + \beta_1 x + \beta_2 x^2 + \cdots + \beta_n x^n \$ |
-| Logarithmic Regression | Models data with logarithmic growth or decay. | \$y = \beta_0 + \beta_1 \log(x) \$ |
-| Exponential Regression | Models exponential increase or decrease. | \$y = \beta_0 e^{\beta_1 x} \$ |
-| Logistic Regression | Used for predicting binary outcomes, S-shaped curve. | \$p = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \$ |
+| [Linear Regression]() | Models data with a straight line, assumes linear relationship. | \$y = \beta_0 + \beta_1 x \$ |
+| [Polynomial Regression]() | Fits a polynomial curve, useful for nonlinear trends. | \$y = \beta_0 + \beta_1 x + \beta_2 x^2 + \cdots + \beta_n x^n \$ |
+| [Logarithmic Regression]() | Models data with logarithmic growth or decay. | \$y = \beta_0 + \beta_1 \log(x) \$ |
+| [[Exponential Regression]() | Models exponential increase or decrease. | \$y = \beta_0 e^{\beta_1 x} \$ |
+| Logistic Regression]() | Used for predicting binary outcomes, S-shaped curve. | \$p = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \$ |
 
 
 <br><br>
 
-## Data Integration
+## [Data Integration]()
 
 <br>
 
@@ -194,9 +194,9 @@ In real-world applications, data often comes from various sources and needs to b
 
 Redundancy occurs when the same data appears multiple times, which can bias analysis or cause inconsistencies. A common case is duplicate rows in datasets.
 
-<br><br>
+<br>
 
-### [Python Code to Detect and Remove Duplicates]()
+### [*Python Code to Detect and Remove Duplicates*]()
 
 <br>
 
