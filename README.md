@@ -232,7 +232,7 @@ Compression reduces data dimensionality or size to improve efficiency without lo
   
 <br><br>
 
-##[ PCA - Principal Component Analysis]()
+## [PCA - Principal Component Analysis]()
 
 PCA transforms correlated variables into a set of linearly uncorrelated components that capture the most variance in the data.
 
@@ -289,7 +289,7 @@ cols.remove('diagnosis')
 df[cols] = scaler.fit_transform(df[cols])
 ```
 
-<br>><br>
+<br><br>
 
 
 
