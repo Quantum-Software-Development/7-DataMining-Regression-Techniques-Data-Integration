@@ -214,14 +214,14 @@ df_clean = df.drop_duplicates()
 <br><br>
 
 
-## Data Conflicts
+## [Data Conflicts]()
 
 Data conflicts arise when different sources provide inconsistent values for the same entity, for example, distances in kilometers vs miles or weights in kilograms vs pounds. Resolving conflicts often requires standardization to consistent units and formats.
 
 <br><br>
 
 
-## Data Compression
+## [Data Compression]()
 
 Compression reduces data dimensionality or size to improve efficiency without losing essential information. Two main approaches:
 
@@ -232,21 +232,21 @@ Compression reduces data dimensionality or size to improve efficiency without lo
   
 <br><br>
 
-## PCA - Principal Component Analysis
+##[ PCA - Principal Component Analysis]()
 
 PCA transforms correlated variables into a set of linearly uncorrelated components that capture the most variance in the data.
 
   
 <br><br>
 
-## Data Standardization
+## [Data Standardization]()
 
 Standardization addresses differences in units and scales, converting data to a common format—for example, capitalizing strings to avoid case-sensitive mismatches or converting dates to a consistent format.
 
   
 <br><br>
 
-## Data Normalization
+## [Data Normalization]()
 
 Normalization rescales numerical attributes so all variables have the same domain, essential for distance-based algorithms like clustering or neural networks.
 
@@ -271,7 +271,7 @@ a' = new\_min + \frac{(a - min_a)(new\_max - new\_min)}{max_a - min_a}
 <br><br>
 
 
-### [*Python Example for Max-Min Normalization###*]
+### [*Python Example for Max-Min Normalization*]()
 
 <br>
 
@@ -290,6 +290,17 @@ df[cols] = scaler.fit_transform(df[cols])
 ```
 
 <br>><br>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
