@@ -111,13 +111,13 @@ This repository covers fundamental concepts and practical techniques in Data Min
 
 <br><br>
 
-## Clustering
+## [Clustering]()
 
 Clustering is a technique to group data points that are similar and separate those that are different. Similarity is often measured numerically using distances in a coordinate space.
 
 <br>
 
-### Euclidean Distance Formula
+### [Euclidean Distance Formula]()
 
 <br>
 
