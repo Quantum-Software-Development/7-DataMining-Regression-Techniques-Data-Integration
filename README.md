@@ -109,9 +109,39 @@ This repository covers fundamental concepts and practical techniques in Data Min
     - [Data Normalization](#data-normalization)
 
 
+<br><br>
+
+## Clustering
+
+Clustering is a technique to group data points that are similar and separate those that are different. Similarity is often measured numerically using distances in a coordinate space.
+
+<br>
+
+### Euclidean Distance Formula
+
+<br>
+
+The most common distance metric used is Euclidean distance between two points $a = (a_1, a_2, ..., a_n)$ and $b = (b_1, b_2, ..., b_n)$:
+
+<br><br>
+
+$$
+\Huge
+d(a, b) = \sqrt{\sum_{i=1}^n (a_i - b_i)^2}
+$$
+
+<br><br>
+
+```latex
+d(a, b) = \sqrt{\sum_{i=1}^n (a_i - b_i)^2}
+```
+
+<br><br>
+
+> *This distance represents the shortest straight line distance between two points in n-dimensional space, calculated using the Pythagorean theorem.*
 
 
-
+<br><br>
 
 
 
