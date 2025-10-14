@@ -182,8 +182,19 @@ Before selecting a regression model, it is essential to plot a scatter plot of t
 
 <br><br>
 
+## Data Integration
 
+<br>
 
+In real-world applications, data often comes from various sources and needs to be integrated into a consistent dataset ready for mining and modeling.
+
+<br>
+
+### *Data Redundancy and Duplicates*
+
+Redundancy occurs when the same data appears multiple times, which can bias analysis or cause inconsistencies. A common case is duplicate rows in datasets.
+
+<br><br>
 
 
 
