@@ -271,7 +271,25 @@ a' = new\_min + \frac{(a - min_a)(new\_max - new\_min)}{max_a - min_a}
 <br><br>
 
 
+### [*Python Example for Max-Min Normalization###*]
 
+<br>
+
+```python
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
+
+df = pd.read_csv('/content/cancer.csv')
+scaler = MinMaxScaler(feature_range=(0, 1))
+
+cols = list(df.columns)
+cols.remove('id')  # remove non-numeric or ID columns
+cols.remove('diagnosis')
+
+df[cols] = scaler.fit_transform(df[cols])
+```
+
+<br>><br>
 
 
 
