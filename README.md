@@ -176,7 +176,7 @@ Before selecting a regression model, it is essential to plot a scatter plot of t
 | [Linear Regression]() | Models data with a straight line, assumes linear relationship. | \$y = \beta_0 + \beta_1 x \$ |
 | [Polynomial Regression]() | Fits a polynomial curve, useful for nonlinear trends. | \$y = \beta_0 + \beta_1 x + \beta_2 x^2 + \cdots + \beta_n x^n \$ |
 | [Logarithmic Regression]() | Models data with logarithmic growth or decay. | \$y = \beta_0 + \beta_1 \log(x) \$ |
-| [[Exponential Regression]() | Models exponential increase or decrease. | \$y = \beta_0 e^{\beta_1 x} \$ |
+| [Exponential Regression]() | Models exponential increase or decrease. | \$y = \beta_0 e^{\beta_1 x} \$ |
 | [Logistic Regression]() | Used for predicting binary outcomes, S-shaped curve. | \$p = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \$ |
 
 
@@ -250,12 +250,25 @@ Standardization addresses differences in units and scales, converting data to a 
 
 Normalization rescales numerical attributes so all variables have the same domain, essential for distance-based algorithms like clustering or neural networks.
 
+<br>
+
+Given an attribute value $a$, minimum $min_a$, and maximum $max_a$, the normalized value $a'$ in the range $[new\_min, new\_max]$ is:
+
+<br><br>
+
+$$
+\Huge
+a' = new\_min + \frac{(a - min_a)(new\_max - new\_min)}{max_a - min_a}
+$$
+
+<br><br>
+
+```latex
+a' = new\_min + \frac{(a - min_a)(new\_max - new\_min)}{max_a - min_a}
+```
 
 
-
-
-
-
+<br><br>
 
 
 
