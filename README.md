@@ -177,7 +177,7 @@ Before selecting a regression model, it is essential to plot a scatter plot of t
 | [Polynomial Regression]() | Fits a polynomial curve, useful for nonlinear trends. | \$y = \beta_0 + \beta_1 x + \beta_2 x^2 + \cdots + \beta_n x^n \$ |
 | [Logarithmic Regression]() | Models data with logarithmic growth or decay. | \$y = \beta_0 + \beta_1 \log(x) \$ |
 | [[Exponential Regression]() | Models exponential increase or decrease. | \$y = \beta_0 e^{\beta_1 x} \$ |
-| Logistic Regression]() | Used for predicting binary outcomes, S-shaped curve. | \$p = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \$ |
+| [Logistic Regression]() | Used for predicting binary outcomes, S-shaped curve. | \$p = \frac{1}{1 + e^{-(\beta_0 + \beta_1 x)}} \$ |
 
 
 <br><br>
@@ -214,6 +214,15 @@ df_clean = df.drop_duplicates()
 <br><br>
 
 
+
+## Data Conflicts
+
+Data conflicts arise when different sources provide inconsistent values for the same entity, for example, distances in kilometers vs miles or weights in kilograms vs pounds. Resolving conflicts often requires standardization to consistent units and formats.
+
+
+## Data Compression
+
+Compression reduces data dimensionality or size to improve efficiency without losing essential information. Two main approaches:
 
 
 
