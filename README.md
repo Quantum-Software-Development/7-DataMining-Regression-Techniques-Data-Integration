@@ -144,8 +144,28 @@ d(a, b) = \sqrt{\sum_{i=1}^n (a_i - b_i)^2}
 <br><br>
 
 
+## [Use Case Example]()
+
+<br>
+
+Suppose you want to segment customers into groups based on age, income, and spending score to personalize marketing strategies. Clustering algorithms group similar customers by minimizing their Euclidean distances within clusters.
+
+<br><br>
 
 
+## [Regression Types]()
+
+<br>
+
+Regression models describe the relationship between a dependent variable and one or more independent variables, often used to predict trends or outcomes.
+
+<br> 
+
+### [*Importance of Scatter Plots*]()
+
+Before selecting a regression model, it is essential to plot a scatter plot of the data to understand how points are distributed and determine the best fitting model. The scatter plot reveals if data follows linear, exponential, polynomial, or logistic patterns.
+
+<br><br>
 
 
 
