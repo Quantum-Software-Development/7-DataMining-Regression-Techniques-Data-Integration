@@ -236,8 +236,19 @@ Compression reduces data dimensionality or size to improve efficiency without lo
 
 PCA transforms correlated variables into a set of linearly uncorrelated components that capture the most variance in the data.
 
+  
+<br><br>
 
+## Data Standardization
 
+Standardization addresses differences in units and scales, converting data to a common format—for example, capitalizing strings to avoid case-sensitive mismatches or converting dates to a consistent format.
+
+  
+<br><br>
+
+## Data Normalization
+
+Normalization rescales numerical attributes so all variables have the same domain, essential for distance-based algorithms like clustering or neural networks.
 
 
 
